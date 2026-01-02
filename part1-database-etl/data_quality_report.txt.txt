@@ -1,0 +1,25 @@
+data_quality_report.txt- Generated report showing:
+
+Customer Data
+Number of records processed per file - 26
+Number of duplicates removed - 1
+Number of missing values handled - 0
+Number of records loaded successfully - 25
+
+Product Data
+Number of records processed per file- 20
+Number of duplicates removed - 0
+Number of missing values handled - 4
+Number of records loaded successfully - 17
+
+Order Data
+Number of records processed per file - 41
+Number of duplicates removed - 1
+Number of missing values handled - 3
+Number of records loaded successfully - 37
+
+Order Item  Data
+Number of records processed per file - 41
+Number of duplicates removed - 1
+Number of missing values handled - 2
+Number of records loaded successfully - 37
