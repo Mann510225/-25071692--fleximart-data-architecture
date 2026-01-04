@@ -63,10 +63,25 @@ mongosh < part2-nosql/mongodb_operations.js
 
 ## Key Learnings
 
-[3-4 sentences on what you learned]
+1. How a real data ETL pipeline works 
+   - Extract (convert csv to dataframes in jupt nb & py files)
+   - Transform ( Clean data of missing, null values, format date & time)
+   - Load (load data in mysql - match schema / insert eact table row by row command)
+2. How to document the database schema and relationships
+3. Importance to defining a schema , preparing structure on mysql before loading data (mismatch with schema will not allow loading)
+4. How to answer specific business questions using SQL - importance of join across different tables / facts & dimensions)
+5. Strict nature of primary key & unique constraint
+6. data cleaning mandatory before sql insertion as mysql tends to reject uncleaned data
+7. Concept & usefulness of github, noSQl usage in mongobd, data warehouse usage in mysql
+8. flowchart for submission 
+
 
 ## Challenges Faced
 
-1. [Challenge and solution]
-2. [Challenge and solution]
+1. Challenge - remembering all python commands and sequence of py operations 
+             - Uploading of data to mysql - lot of reworking done to change schema corrections & correct mismatch
+    Solution - took help by revisiting Bitsom classes 
+              - copilot inline was helpful in understanding syntax & py commands
+               - cross checked errors and clarified confusions with help of chatgpt
+
 
